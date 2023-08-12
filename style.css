@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  height: 85vh;
+}
+
+.calculadora {
+  width: 40rem;
+}
+
+h1 {
+  font-size: 4.4rem;
+  margin-bottom: 2.2rem;
+}
+
+.display {
+  font-size: 3.2rem;
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.6rem;
+  border: none;
+  background-color: #dfdfdf;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #9e9e9e;
+}
